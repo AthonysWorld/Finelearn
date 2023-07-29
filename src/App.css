@@ -1,0 +1,256 @@
+body{
+    background-color: white;
+    color: white;
+    margin: 0;
+    padding: 0%;
+}
+hr{
+    color: #F77E23;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+}
+span{
+    color: #F77E23;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 2px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.navbar{
+    padding: 10px;
+}
+h1{
+    font-size: 3.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header{
+    background: url(./image/web-landing-image.png);
+    height: 80vh;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.btn{
+    color: white;
+    background-color:#FF6F28;
+}
+.header-two{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    padding-top: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.header-image{
+    height: 300px;
+    width: 200px;
+}
+.header-cont {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.expertDiv{
+    background-image: linear-gradient(#F77E23, #FFEEE1, #FFE7DB);
+    color: black;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Compete{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: linear-gradient( #FFEEE1 80%, #FAFAFC 100%, #FFFFFF, #FF6011 100%, #FFE7DB 100%, #FFFFFF);
+}
+.exploreDiv{
+    color: black;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.exploreImageDiv{
+   padding: 20px;
+   padding-left: 50px;
+}
+.exploreImage{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.onlineDiv{
+    color: black;
+    background-image: linear-gradient(#F77E23, #FFEEE1, #FFE7DB);
+    padding: 20px;
+}
+.Popular, .Compete{
+    background-color: white;
+    color: black;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1{
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: #F77E23;
+    margin-top: 100px;
+    box-shadow: 2px 4px 4px 2px  #ffff;
+    padding-top: 50px;
+}
+::placeholder{
+    color: #F77E23;
+}
+.Featured{
+    color: black;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.Publications{
+    background-image: linear-gradient( #FFEEE1 80%, #FAFAFC 100%, #FFFFFF, #FF6011 100%, #FFE7DB 100%, #FFFFFF);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: black; 
+}
+.PublicationOne{
+    padding-top: 100px;
+}
+.recent{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.Reviews{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;   
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.footer-footer{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.inputOne{
+    height: 40px;
+    border-radius: 0;
+    margin-right: 5px;
+}
+.inputOne::placeholder{
+    color: #F77E23;
+}
+.Popular{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.reviews{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+    .two{
+        height: 100px;
+        width: 500px;
+        background-color: white;
+        border-radius: 15px;
+        position: absolute;
+        bottom: 0;
+        left: 400px;
+        color: black;
+        padding-top: 40px;
+    }
+    .bigContainer{
+        text-align: left;
+        justify-content: left;
+        padding-left: 150px;
+    }
+    .online{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .online2{
+        text-align: left;
+        padding-top: 100px;
+    }
+    .online3{
+    text-align: right;
+    
+    padding-right: 50px;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .two{
+        height: 100px;
+        width: 400px;
+        background-color: white;
+        color: black;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        border-radius: 15px;
+        bottom: 0;
+        left: 60px;
+    }   
+    .headerImage{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .pic{
+        width: 300px;
+    }
+}
+
+
+
+
