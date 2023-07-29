@@ -1,4 +1,4 @@
-import React from 'react'
+
 import image1 from '../image/publications-image.png'
 
 const Publications = () => {

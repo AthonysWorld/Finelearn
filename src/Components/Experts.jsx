@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Pic from '../image/glassedup.png'
 
 const Experts = () => {

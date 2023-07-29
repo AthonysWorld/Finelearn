@@ -1,4 +1,4 @@
-import React from 'react'
+
 import image1 from '../image/scholars-image.png'
 
 const Compete = () => {
