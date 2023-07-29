@@ -9,20 +9,20 @@ const Categories = () => {
     <div className='container-fluid header-two'>
       <h2>Top cartegories</h2>
       <div className='container row'>
-        <div className='container header-cont col-lg-2 col-5'>
-        <img className='header-image' src={image1}></img>
+        <div className='container header-cont col-lg-2'>
+        <img className='headerImage' src={image1}></img>
         </div>
 
-        <div className='container header-cont col-lg-2 col-5'>
-        <img className='header-image' src={image2}></img>
+        <div className='container header-cont col-lg-2'>
+        <img className='headerImage' src={image2}></img>
         </div>
 
-        <div className='container header-cont col-lg-2 col-5'>
-        <img className='header-image' src={image3}></img> 
+        <div className='container header-cont col-lg-2'>
+        <img  className='headerImage' src={image3}></img> 
         </div>
 
-        <div className='container header-cont col-lg-2 col-5'>
-        <img className='header-image' src={image4}></img> 
+        <div className='container header-cont col-lg-2'>
+        <img className='headerImage' src={image4}></img> 
         </div>
       </div>
   

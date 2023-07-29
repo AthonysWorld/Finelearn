@@ -13,32 +13,32 @@ const Explore = () => {
 
       <div className='container-fluid row'>
       <div className='container exploreImageDiv col-lg-4'>
-<img className='exploreImage' src={image1}></img>
+<img className='headerImage' src={image1}></img>
 <h5>Learn Marketing from <br/> Top Instructors.</h5>
       </div>
 
       <div className='container exploreImageDiv col-lg-4'>
-<img className='exploreImage' src={image2}></img>
+<img className='headerImage' src={image2}></img>
 <h5>Front-end development<br/> is not hard as you think</h5>
       </div>
 
       <div className='container exploreImageDiv col-lg-4'>
-<img className='exploreImage' src={image3}></img>
+<img className='headerImage' src={image3}></img>
 <h5>Everrything you need to know in UX</h5>
       </div>
 
        <div className='container exploreImageDiv col-lg-4'>
-<img className='exploreImage' src={image4}></img>
+<img className='headerImage' src={image4}></img>
 <h5>Learn photography with ease.</h5>
       </div>
 
       <div className='container exploreImageDiv col-lg-4'>
-<img className='exploreImage' src={image5}></img>
+<img className='headerImage' src={image5}></img>
 <h5>Be a pro in data<br/> analysis</h5>
       </div>
 
       <div className='container exploreImageDiv col-lg-4'>
-<img className='exploreImage' src={image6}></img>
+<img className='headerImage' src={image6}></img>
 <h5>Ethical Harking is not <br/> hard as you think </h5>
       </div>
 
