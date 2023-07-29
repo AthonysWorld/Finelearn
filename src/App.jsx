@@ -5,9 +5,9 @@ import Categories from './Components/Categories'
 import Expert from './Components/Experts'
 import Explore from './Components/Explore'
 import Online from './Components/Online'
-import Popular from './Components/Popular'
-import Compete from './Components/compete'
-import Featured from './Components/featured'
+import New from './Components/New'
+import Compete from './Components/Compete'
+import Featured from './Components/Featured'
 import Publications from './Components/Publications'
 import Recent from './Components/Recent'
 import Reviews from './Components/Reviews'
@@ -21,7 +21,7 @@ const App = () => {
       <Expert/>
       <Explore/>
       <Online/>
-      <Popular/>
+      <New/>
       <Compete/>
       <Featured/>
       <Publications/>
