@@ -8,19 +8,19 @@ const Featured = () => {
   return (
     <div className='container-fluid row Featured'>
     <h1>Featured Competition</h1>
-      <div className='container col-lg-3 col-5'>
+      <div className='container col-lg-3'>
 <img className='headerImage' src={image1}></img>
       </div>
 
-      <div className='container col-lg-3 col-5'>
+      <div className='container col-lg-3'>
       <img className='headerImage' src={image2}></img>
       </div>
 
-      <div className='container col-lg-3 col-5'>
+      <div className='container col-lg-3'>
       <img className='headerImage' src={image3}></img>
       </div>
 
-      <div className='container col-lg-3 col-5'>
+      <div className='container col-lg-3'>
       <img className='headerImage' src={image4}></img>
       </div>
 
